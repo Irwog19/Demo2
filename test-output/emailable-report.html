@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">57,313</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mercury.testcases.TC2</td><td><a href="#m0">testflightdetails</a></td><td rowspan="1">1593003857301</td><td rowspan="1">4336</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.mercury.testcases.TC1</td><td><a href="#m1">testLogin</a></td><td rowspan="1">1593003850346</td><td rowspan="1">6949</td></tr><tr class="passedodd"><td rowspan="1">com.mercury.testcases.TC3</td><td><a href="#m2">testpreferences</a></td><td rowspan="1">1593003861639</td><td rowspan="1">3753</td></tr><tr class="passedeven"><td rowspan="1">com.mercury.testcases.TC4</td><td><a href="#m3">testContinuetoReserve</a></td><td rowspan="1">1593003865393</td><td rowspan="1">4098</td></tr><tr class="passedodd"><td rowspan="1">com.mercury.testcases.TC5</td><td><a href="#m4">testpassengers</a></td><td rowspan="1">1593003869493</td><td rowspan="1">4566</td></tr><tr class="passedeven"><td rowspan="1">com.mercury.testcases.TC6</td><td><a href="#m5">testcreditcard</a></td><td rowspan="1">1593003874061</td><td rowspan="1">3556</td></tr><tr class="passedodd"><td rowspan="1">com.mercury.testcases.TC7</td><td><a href="#m6">testbillingaddress</a></td><td rowspan="1">1593003877618</td><td rowspan="1">3706</td></tr><tr class="passedeven"><td rowspan="1">com.mercury.testcases.TC8</td><td><a href="#m7">testdeliveryaddress</a></td><td rowspan="1">1593003881325</td><td rowspan="1">7257</td></tr><tr class="passedodd"><td rowspan="1">com.mercury.testcases.TC9</td><td><a href="#m8">testpurchaseandvalidation</a></td><td rowspan="1">1593003888583</td><td rowspan="1">5150</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.mercury.testcases.TC2#testflightdetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [] but found [LOndon]
+	at com.mercury.pages.Page_FlightDetails.departfrom(Page_FlightDetails.java:42)
+	at com.mercury.flows.Flow_FlightDetails.flightDetails(Flow_FlightDetails.java:14)
+	at com.mercury.testcases.TC2.testflightdetails(TC2.java:15)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.mercury.testcases.TC1#testLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">User successfully logged in.<br/>Signin Screenshot taken.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.mercury.testcases.TC3#testpreferences</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Service class: First class seleceted.<br/>Airlines: 'Unified' seleceted.<br/>Preferences Screenshot taken.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.mercury.testcases.TC4#testContinuetoReserve</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Continue button clicked to find flights.<br/>Continue to flights snapshot taken/saved.<br/>Continue to reservation snapshot taken/saved.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.mercury.testcases.TC5#testpassengers</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Passengers(2) details furnished.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.mercury.testcases.TC6#testcreditcard</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Credit card details furnished.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.mercury.testcases.TC7#testbillingaddress</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Billing address furnised.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.mercury.testcases.TC8#testdeliveryaddress</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Delivery address furnised.<br/>Alert accepted.<br/>Same as billing address option clicked.<br/>Book flight screenshot taken/saved.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.mercury.testcases.TC9#testpurchaseandvalidation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Purchase confirmation  screenshot taken/saved.<br/>Purchase has been successful.<br/>Purchase Validation done.<br/>Returned to home screen.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
